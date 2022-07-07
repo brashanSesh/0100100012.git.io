@@ -1,0 +1,62 @@
+/* body page */
+body{
+    background-color: #9973a2;
+}
+
+/* section main container */
+.section_main_container{
+    width: 90%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 15%;
+    padding: 1px;
+    border-radius: 10px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    color: #6fccc2;
+    background-color: #dcbcd5;
+}
+
+/* title container */
+.section_main_container .title_container{
+    text-align: center;
+    font-size: 40px;
+
+    color: #6fccc2;
+}
+
+/* explication of the contend */
+.section_main_container .explicatoin_contend{
+    text-align: center;
+    font-size: 30px;
+}
+
+/* button to go to the next page */
+.section_main_container .button_next_page{
+    display: block;
+
+    margin-right: auto;
+    margin-left: auto;
+    width: 100px;
+    border: 1px solid #4d9aff;
+    border-radius: 5px;
+
+    font-size: 25px;
+
+    background-color: #87d6bc;
+}
+
+/* hover to the button */
+.section_main_container .button_next_page:hover{
+    background-color: #00ffaa;
+}
+
+/* focus to the button */
+.section_main_container .button_next_page:focus{
+    border: 1px solid orange;
+
+    background-color: blueviolet;
+    color: azure;
+}
